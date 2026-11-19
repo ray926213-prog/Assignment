@@ -2,6 +2,7 @@ import sys
 import io
 import sqlite3
 from datetime import datetime
+import pie_chart
 
 # ==========================================
 # 強制設定標準輸出為 UTF-8，徹底解決終端機中文亂碼問題
@@ -257,6 +258,7 @@ def delete_expense():
     
     conn.close()
 
+
 # ==========================================
 # 主程式與互動式選單
 # ==========================================
@@ -277,14 +279,19 @@ def main():
         
         if choice == '1':
             add_expense()
+            pie_chart.main()
         elif choice == '2':
             query_expenses()
+            pie_chart.main()
         elif choice == '3':
             update_expense()
+            pie_chart.main()
         elif choice == '4':
             delete_expense()
+            pie_chart.main()
         elif choice == '5':
             print(f"\n👋 感謝使用！所有資料變更皆已同步儲存至：{DB_FILE}")
+            pie_chart.main()
             break
         else:
             print("⚠️ 無效的選項，請輸入 1 到 5 之間的數字。")
