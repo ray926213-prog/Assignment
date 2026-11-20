@@ -15,7 +15,7 @@ This project is a Python and SQLite expense tracker. Member A handles input/outp
 | --- | --- | --- |
 | 1132918 蔡秉叡 | 輸入與輸出（Input / Output）：支出資料輸入、結果顯示及整合協調 | `V3_0.py` 的輸入／輸出流程、`expenses.db` |
 | 1132945 陳裕升 | 圓餅圖（Visualization）：讀取 SQLite、分類金額加總、產生圖表 | `pie_chart.py`, `pie_chart.svg`, `pie_chart.png` |
-| 1132921 方均祁 | 額外功能（Additional Features）：擴充基本支出管理功能 | 整合於 `V3_0.py`；實際負責功能請組長依提交紀錄確認 |
+| 1132921 方均祁 | 額外功能（Additional Features）：擴充基本支出管理功能 | 整合於 `V3_0.py` |
 
 
 
